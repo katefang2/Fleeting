@@ -1,0 +1,64 @@
+
+
+
+@font-face {
+    font-family: 'Fleeting';
+    src: url('fleeting.VF2.ttf') format('ttf');
+    font-weight: 100 1000;
+    font-stretch: 0% 200%;
+    font-display: swap;
+    font-variant-caps: all-small-caps;
+    
+  }
+
+
+  body{
+    display: flex;
+    margin: 0%;
+    justify-content: center;
+    height: 100vh;
+    color: black;
+    background-color: green;
+  }
+
+
+  .display {
+
+   
+    height: 50%;
+    padding: 0.5em;
+    text-align: center;
+    
+  }
+
+  .title {
+    font-family: 'Fleeting';
+    font-size: 20em;
+ 
+    font-variation-settings: 
+    'vari' 0 ;
+    line-height: 1.1;
+    transition: font-variation-settings 500ms;
+    align-self: center;
+   
+   
+}
+
+
+.description {
+  font-family: 'Futura';
+  font-size: 30px;
+
+}
+
+
+
+
+
+.title:hover {
+   
+    font-variation-settings: 'vari' 1000 ;
+    
+   
+}
+
